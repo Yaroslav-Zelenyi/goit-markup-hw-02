@@ -1,0 +1,60 @@
+body {
+background-color:#F5F5F5; 
+color:#212121;   
+}
+
+/* page-header */
+
+.logo {
+ color: #000000;   
+}
+ul {
+    list-style: none;
+}
+
+/* site-nav list */
+
+.site-nav .link {
+ color: #000000;   
+}   
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+
+/* contacts list */
+
+.contacts .link {
+ color:#757575;    
+}
+.contacts .link:hover,
+.contacts .link:focus {
+color: #2196F3;
+}
+
+
+
+
+
+/* колір основного тексту чорний #212121; */
+/* вторинний колір сірий #757575 */ 
+/* білий #FFFFFF; */
+/* акцент #2196F3; */
+/* font-family: 'Roboto';
+    font-style: normal;
+}
+
+.site-nav{
+color: #212121;
+}
+.site-nav:hover,
+.site-nav:focus{
+    color: #2196F3;   
+}
+.contacts{
+    color: #757575; 
+}
+.contacts:hover,
+.contacts:focus{
+    color: #2196F3;   
+} */
