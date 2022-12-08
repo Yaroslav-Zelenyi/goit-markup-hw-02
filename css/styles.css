@@ -38,7 +38,10 @@ ul {
 .header-fon {
  background-color: #FFFFFF;}
 .secondary-fon {
- background-color: var(--secondary-big-color);    
+ background-color: var(--secondary-big-color);     
+}
+.teams-fon {
+background-color: #F5F4FA;;    
 }
 
 /* site-nav list */
