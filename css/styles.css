@@ -35,6 +35,7 @@ ul {
 }
 
 /* fon */
+
 .header-fon {
  background-color: #FFFFFF;}
 .secondary-fon {
@@ -58,6 +59,21 @@ background-color: #F5F4FA;;
 .site-nav .link:focus {
 color: var(--accent-color);
 }
+
+/* contacts list */
+
+.contacts .link:focus,
+.contacts .link:hover {
+color: #2196F3;
+}
+.contacts .link {
+    color:var(--primary-text-color);
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 1.14; 
+    letter-spacing: 0.02em;   
+    text-decoration: none;
+   }
 
 /* hero */
 
@@ -118,28 +134,24 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 }
-/* contacts, address */
+
+/* contacts-footer, address */
 
 .address .link {
  color:#FFFFFF;
  font-size: 14px;
- line-height: 1.14;
- text-decoration: none; 
+ line-height: 1.7;
+ text-decoration: none;
 }
-.contacts .link {
- color: #757575;
- font-size: 14px;
- line-height: 1.14;
- text-decoration: none;    
+ .contacts-footer .link {
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 1.7; 
+text-decoration: none;  
 }
-.contacts .link:hover,
-.contacts .link:focus,
-.address .link:hover, 
-.address .link:focus {
-color: #2196F3;
-}
-
-
+.address .link:focus,
+.contacts-footer .link:focus
+ 
 /* portfolio-nav */
 
 .portfolio-nav {
